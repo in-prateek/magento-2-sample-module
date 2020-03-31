@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+
+namespace Mageplaza\HelloWorld\Controller\Index;
+
+class Example extends \Magento\Framework\App\Action\Action
+{
+
+	protected $title;
+
+	public function execute()
+	{
+		$this-&gt;setTitle('Welcome');
+		echo $this-&gt;getTitle();
+
+		exit(0);
+	}
+
+	public function setTitle($title)
+	{
+		echo __METHOD__ . &quot;&lt;/br&gt;&quot;;
+
+		return $this-&gt;title = $title;
+	}
+
+	public function getTitle()
+	{
+		echo __METHOD__ . &quot;&lt;/br&gt;&quot;;
+
+		return $this-&gt;title;
+	}
+}</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

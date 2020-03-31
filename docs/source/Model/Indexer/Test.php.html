@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+namespace Mageplaza\HelloWorld\Model\Indexer;
+
+class Test implements \Magento\Framework\Indexer\ActionInterface, \Magento\Framework\Mview\ActionInterface
+{
+	/*
+	 * Used by mview, allows process indexer in the &quot;Update on schedule&quot; mode
+	 */
+	public function execute($ids){
+
+		//code here!
+	}
+
+	/*
+	 * Will take all of the data and reindex
+	 * Will run when reindex via command line
+	 */
+	public function executeFull(){
+		//code here!
+	}
+	/*
+	 * Works with a set of entity changed (may be massaction)
+	 */
+	public function executeList(array $ids){
+		//code here!
+	}
+	/*
+	 * Works in runtime for a single entity using plugins
+	 */
+	public function executeRow($id){
+		//code here!
+	}
+}</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="v2.9.0">
+  <partials/>
+  <file path="registration.php" generated-path="registration.html" hash="abc121b195301672ba35aba971e6d182" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzsS/IKOCK8U1MT80ryY9xK0rMTS3PL8qOcc7PLcjPAwoiWEGp6ZnFJUWJRVZWRWBmapEGFyfJen39XUJ9XHW4ONVBOgtyEqsS4z1Sc3Lyw/OLclLUgRLx8S6eQfHxXJrWAMYxOaI=</source>
+  </file>
+  <file path="Controller/Index/Test.php" generated-path="Controller.Index.Test.html" hash="4974ec2f6a0085f7cbc8cafcf815189b" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Index" line="5" package="Default">
+      <extends>\Magento\Framework\App\Action\Action</extends>
+      <name>Test</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Index\Test</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="8" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Test::execute()</full_name>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Index\Test</error>
+      <error line="8" code="PPC:ERR-50008">No summary for method execute()</error>
+    </parse_markers>
+    <source>eJxtj01OwzAQhdfxKbxAciKRE5QGVVQVLCo2lVhgFE2doUlxbMuekJSqd8dJoaISq9H8fe+9u3tXO8YMtBgcKORr2KHT8AXyEbW2L9brSj5YQ95qjV4+mQqHGWNKQwh8g4E4DoSmClyOv4asXPmI663/kAvn5EJRY81PYUfGEtdtdaP4e2emWQSg6gjTjCVHliQ3FInLJkQbBz7nBvv/0EsgeN7uUVEK3sMhFeOb4POCi0sIkWWziVg3IS9K/IyQNZi49nlRRQkgVaei/b0v6zF0P4Yuq7ODcsLe8lfRuvIi8dfj26SBqrZX47zYIW1in573Q0OxntjpG4KGga0=</source>
+  </file>
+  <file path="Controller/Index/Display.php" generated-path="Controller.Index.Display.html" hash="ee7c864355cc36cf110bc56b4f4db6c0" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Index" line="5" package="Default">
+      <extends>\Magento\Framework\App\Action\Action</extends>
+      <name>Display</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Index\Display</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Index" line="7" package="Default">
+        <name>$_pageFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Display::_pageFactory</full_name>
+        <default></default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="9" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Display::__construct()</full_name>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\App\Action\Context</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$pageFactory</name>
+          <default></default>
+          <type>\Magento\Framework\View\Result\PageFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="18" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Display::execute()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Index\Display</error>
+      <error line="9" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="9" code="PPC:ERR-50015">Argument $pageFactory is missing from the Docblock of __construct</error>
+      <error line="9" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $_pageFactory</error>
+    </parse_markers>
+    <source>eJx9j8FKAzEQhs/JU8xhDy3YF2i1UpSiB0E86CWwxNnRLsYkTCZ0q/TdzdYVV1g8JYf//79vzi/jLmrt7TulaJHgzr5SdPbDmhtyLjwFdo25Cl44OEdsbn1D3UprdDYluG5TCR+AOiHfJDB93UswWy6L+8BvZhOj2aC0wQ+P/tQqchBCoQaqOpbK1qIEPpRdFfOzaxFesj+loa4x+CScUWZaqf8JvWhxgQq/P2fTjceW9uaBUnZi7n/xUI1c5loVUVXJrk2L9dgSLv4Ee2nFJJk9RMsFtVyOpX9c5iutjhMHUkeYhWYDcFia4C7WyGT75Gnp+AUu8Zw4</source>
+  </file>
+  <file path="Controller/Index/Config.php" generated-path="Controller.Index.Config.html" hash="f5acb051a31b59f97d392d35a55e5332" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Index" line="5" package="Default">
+      <extends>\Magento\Framework\App\Action\Action</extends>
+      <name>Config</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Index\Config</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Index" line="8" package="Default">
+        <name>$helperData</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Config::helperData</full_name>
+        <default></default>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="10" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Config::__construct()</full_name>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\App\Action\Context</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$helperData</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Helper\Data</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="20" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Config::execute()</full_name>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <markers>
+      <todo line="23">Implement execute() method.</todo>
+    </markers>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Index\Config</error>
+      <error line="10" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="10" code="PPC:ERR-50015">Argument $helperData is missing from the Docblock of __construct</error>
+      <error line="10" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="20" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="8" code="PPC:ERR-50007">No summary for property $helperData</error>
+    </parse_markers>
+    <source>eJyVkU9rAjEQxc+bTzEHwV2o9a6tRSqtHoqXQi+BJWZHNzSbhGSWbit+9yb+QYul0FMC896838zcPbjaMWZEg8EJifAiNui0+BJ8jlrbN+t1xR+tIW+1Rs8XpsJuzJjUIgSIhbXaAHaEpgrAk9uQ5U8+Nvyw/p1PneNTScqa48O2jGXOW0JJWEGvRu3QzwSJcSq0K60krFuzF0NZSmsC+VZSzrLs74CEGVGgJw+fm5PjaqD5PpSn1EuCCFCwbBttPapVGEzOJbj/iZplHqn1BpzwkWg0uiQ9ARRRt/tlKuxQtoT5Piy2Gg7hdTlbjmDROI1N7HeWQINU2+o26VDWFq7QBpMN0jMa9EIfDpL30YiVxn4C+IerUiGu6rNM7Edvpygv0mV2bPcNcdS9YA==</source>
+  </file>
+  <file path="Controller/Index/Example.php" generated-path="Controller.Index.Example.html" hash="0d98e031f5971cb40bf747410c123e6b" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Index" line="5" package="Default">
+      <extends>\Magento\Framework\App\Action\Action</extends>
+      <name>Example</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Index\Example</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Index" line="8" package="Default">
+        <name>$title</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Example::title</full_name>
+        <default></default>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="10" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Example::execute()</full_name>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="18" package="Default">
+        <name>setTitle</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Example::setTitle()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$title</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="25" package="Default">
+        <name>getTitle</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Example::getTitle()</full_name>
+        <docblock line="25">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Index\Example</error>
+      <error line="10" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="18" code="PPC:ERR-50015">Argument $title is missing from the Docblock of setTitle</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method setTitle()</error>
+      <error line="25" code="PPC:ERR-50008">No summary for method getTitle()</error>
+      <error line="8" code="PPC:ERR-50007">No summary for property $title</error>
+    </parse_markers>
+    <source>eJydjz1rwzAQhmfrV4gQiD30Y3eaEtqUdAhdAlkERpGvsehZEtKZmob891qqky6ZMh3o3vd5TvNn1zjGjGwhOKmAb+QBHMofKdaAaHfWYy1erCFvEcGLd1NDXzKmUIbAV71sHQKHnsDUgYtYN2TFmx+I39Z/iaVzYqlIWzMOdmQsc94SKIKaT0kTQhnfuj1qxT87k3IDFFRHkBcsO7Ism1Kjw90iAG1jI5/tAJVtYVaUwxZUY/kYOZwjRcRm0GvKH2PqdMVy4f0dMsoSrqo2q+3647Wq+D2fzB/2fjFJRA/UeXPWpR5/uvzkqub/phsFiXv6BeTlij8=</source>
+  </file>
+  <file path="Controller/Index/Index.php" generated-path="Controller.Index.Index.html" hash="5fe7dd4aa87d0da0497ff8ec8abb5bb6" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Index" line="4" package="Default">
+      <extends>\Magento\Framework\App\Action\Action</extends>
+      <name>Index</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Index\Index</full_name>
+      <docblock line="4">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="4" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Index" line="6" package="Default">
+        <name>$_pageFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Index::_pageFactory</full_name>
+        <default></default>
+        <docblock line="6">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Index" line="8" package="Default">
+        <name>$_postFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Index::_postFactory</full_name>
+        <default></default>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="10" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Index::__construct()</full_name>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\App\Action\Context</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$pageFactory</name>
+          <default></default>
+          <type>\Magento\Framework\View\Result\PageFactory</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$postFactory</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Model\PostFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Index" line="21" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Index\Index::execute()</full_name>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="4" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Index\Index</error>
+      <error line="10" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="10" code="PPC:ERR-50015">Argument $pageFactory is missing from the Docblock of __construct</error>
+      <error line="10" code="PPC:ERR-50015">Argument $postFactory is missing from the Docblock of __construct</error>
+      <error line="10" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="21" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="6" code="PPC:ERR-50007">No summary for property $_pageFactory</error>
+      <error line="8" code="PPC:ERR-50007">No summary for property $_postFactory</error>
+    </parse_markers>
+    <source>eJx9Uk1rgzAYPptfEYoHhZXd+zVKR9kOhbLDdglIFt9WWZqE5JW6Df/7Eu2H0rKDaMzz+SazJ1MYovgBnOEC6IbvwUj+w9kLSKk/tJU5W2mFVksJlr2qHOopIUJy52i7olAjqNxRFsgKNVtbr3fU9ostjWFLgaVWpxf5JZGxGkEg5DTOjKesuUBtv73qcEs77G9Vn7IUdFepVohmmdDKoa0EJiSK/jcPDXxMGovu4+E+472EI3sDV0lk22syGvdiXqg3Y9roHCTbXmN73nXhaSmJfP0oxqJ040W/O50PPKZ9VE9vPlAMKAtYWUUNt77KZNIfyrlr6nHNnQFCDaJCSM6pgnJwuPUdL4QFHqBtMBGuQqdxCjRe7AFXl98dbqc9SRRJH88djUuEQxocIxCFpqOZsbAYBYY//lJhZpMW04o+c+RJ2uqd4Y8XfOMfqEvs/E6juDPdQf6GNH95vv/f</source>
+  </file>
+  <file path="Controller/Adminhtml/Post/Index.php" generated-path="Controller.Adminhtml.Post.Index.html" hash="2507217a9f52626d0adc18f8695df308" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Controller\Adminhtml\Post" line="5" package="Default">
+      <extends>\Magento\Backend\App\Action</extends>
+      <name>Index</name>
+      <full_name>\Mageplaza\HelloWorld\Controller\Adminhtml\Post\Index</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Controller\Adminhtml\Post" line="7" package="Default">
+        <name>$resultPageFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Adminhtml\Post\Index::resultPageFactory</full_name>
+        <default>false</default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Adminhtml\Post" line="9" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Adminhtml\Post\Index::__construct()</full_name>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Backend\App\Action\Context</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$resultPageFactory</name>
+          <default></default>
+          <type>\Magento\Framework\View\Result\PageFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Controller\Adminhtml\Post" line="18" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Controller\Adminhtml\Post\Index::execute()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Controller\Adminhtml\Post\Index</error>
+      <error line="9" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="9" code="PPC:ERR-50015">Argument $resultPageFactory is missing from the Docblock of __construct</error>
+      <error line="9" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $resultPageFactory</error>
+    </parse_markers>
+    <source>eJx9kcFKAzEQhs/JU+Sw0F2wL9DqyioUPQhFRC+BJWanbWg2CZNZWpW+u9mtwkpbb5Mw//9/M3N9GzaBc6daiEFpEE9qDcGqTyUfwFr/5tE28t47Qm8toKya1rgNtVYufaQ559qqGMWja2AvYE/gmihk7+LIyzult+lHViHISpPxjn9xFtATaIJGZAixs7RM7QulyeOHuBErZSMkZxa6d2u0WHVukIq61t5Fwk5Tzhn7J2UgTjQi08fiaty/wDTuzuNWvhrYyeeBQY4hTrk4KzhL7CwoTCaz2RjmN6WYp4aMNiZOy3OTndomweHMpLAH3RHkP5kjXe9yIWBaagTVq+Z/NdNyDZQ2sjLrvBgeL4Ys9HVACGl1eV7X+aS/aJwURdEvnyFQh27MfITlh2/EbcM1</source>
+  </file>
+  <file path="Setup/InstallSchema.php" generated-path="Setup.InstallSchema.html" hash="8c48b52f5f8c1902d67ae4cfe0f1e151" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Setup" line="5" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Setup\InstallSchemaInterface</implements>
+      <name>InstallSchema</name>
+      <full_name>\Mageplaza\HelloWorld\Setup\InstallSchema</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="8" package="Default">
+        <name>install</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\InstallSchema::install()</full_name>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$setup</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\SchemaSetupInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleContextInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Setup\InstallSchema</error>
+      <error line="8" code="PPC:ERR-50015">Argument $setup is missing from the Docblock of install</error>
+      <error line="8" code="PPC:ERR-50015">Argument $context is missing from the Docblock of install</error>
+      <error line="8" code="PPC:ERR-50008">No summary for method install()</error>
+    </parse_markers>
+    <source>eJzNVk2P2jAQPSe/wpWQEiQ4tOr2wHapKIQ2KiC0BHWrZhV5YwPROk4UO4Ltiv9efyR8FbICceglieN5b96Mxx5//pIuUtOkMMYshSEGQzjHKYF/oP8dE5L8TDKC/AnmeXprmiGBjAGXMg4JmYQLHEMQxSnBMaacAV+CKU/8fib4lkn2rJH+HsKlHGcz4ct8NU0jzZ9IFIJZTkMeJRRE2tQ+yaVJ1PeGCdSYHDdOKxgmKCe4mwjEiu/gQv2nbhqvpmHUCu84A3cF5+3e72ZbfGRccdp1ORfNgP1u14DDJ4KdVcQ4s624zGawkNlcymwGacK4Va8D6dGoKXvpbodjjrmQSrFKiV1vtileetLOlhDjwFTPVPmSKPUwmm2IUDcheUw1l2FJkyBCVkOPj6Sw99XvIeIrP62W92vsBO7Ic7459wWG5oQUn7/1y7AiJFgi/mKBuzbgWY4b5Yy0llRqZgYJ206lWRTDTGD+AeWURXOK0SHdY/G2xiIM4PYsNTwZrCz08yL1nAevAHy4uSmj3ASxicHaVzKSjqq15BkJnvHLNeTs+57eD8APQVztXq27qn/KL9Zgffr4bB1XoR7dgr9aCodzdv00eJK12rHYRjw/0/V+6b8/7nuiiau9z7AwyjAKIrl3r5+AfsEPXMVfLSbMhLXQAs8tBnfoTLzOcHzkLDi21YGF8AzmhKt/b/so6UXeXW8TX1erBZ2ytI7trxT9/xEF03Gv4zmbwKZatAysXComu0EsW6xdFrYUoNrPYS/Ybxt6TXV/0I1GgN5EiUS6FOHVhc1GR6K7p4K4aCVPw2JZLuSTqVdnN9iem+DgDAPFQQIOd9Zj5fp3EEzFhaB8b24HrZY76jkPgSqK/nQwkHtOV5vmu4KkKylStbA+uKpgirYXlbW5/gs8EeL4</source>
+  </file>
+  <file path="Setup/UpgradeSchema.php" generated-path="Setup.UpgradeSchema.html" hash="076d236d3b77f4a9f05b644499763097" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="UpgradeSchemaInterface">\Magento\Framework\Setup\UpgradeSchemaInterface</namespace-alias>
+    <namespace-alias name="SchemaSetupInterface">\Magento\Framework\Setup\SchemaSetupInterface</namespace-alias>
+    <namespace-alias name="ModuleContextInterface">\Magento\Framework\Setup\ModuleContextInterface</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Setup" line="8" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Setup\UpgradeSchemaInterface</implements>
+      <name>UpgradeSchema</name>
+      <full_name>\Mageplaza\HelloWorld\Setup\UpgradeSchema</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="10" package="Default">
+        <name>upgrade</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\UpgradeSchema::upgrade()</full_name>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$setup</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\SchemaSetupInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleContextInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Setup\UpgradeSchema</error>
+      <error line="10" code="PPC:ERR-50015">Argument $setup is missing from the Docblock of upgrade</error>
+      <error line="10" code="PPC:ERR-50015">Argument $context is missing from the Docblock of upgrade</error>
+      <error line="10" code="PPC:ERR-50008">No summary for method upgrade()</error>
+    </parse_markers>
+    <source>eJzVVltv2jAUfk5+hSchOUhQjWrdA22ZGKRbNKhQCVunUUVuYiCqc1HsrHRT//t8SdI0paT08rAHwPj4O+c7PjcffYpXsR6iANMYuRiM0RLHBP1B86+YkOhHlBBvPsUsjQ91PaXqQMii+UnCMddRcqWk81m8TJCHp+4KB8gKGU4WXN/hVow6LNdPRIwjLyV4EPHTa1bC6C5BlIJ7JIAfxAQHXE9FUOD0v7oWp5fEd8EiDV3mRyFI1UkDbCIHGlT8b4HNPEDDVTugCbhqreGHlCFCcAKOMyinWt5v9/giYdKK0ZRCf2H8xgnlXBw3CmKUYCNX2+4tMfuuhEazBWBnr7P3HvLFEWwqkxwOjHdlAwxdEmyufcqoAYM8vM5KhPdahNeJI8oKvNaQAEG4pITb5c6GWN6R0Wz3Qnxti3OGxGiVs0q0zZqEqW+t3UOeN4hIGoSZOg2KU47vwVa2MX+YEcPP86FH5tJWt2v/nJiOdWqbX8yzHBSmhOTrX9mvBn2PK/LZDQTHPcCSFLcKkQAIdVK0QISWZHHiByjhqIewNKT+MsTeA40X+QJOuD/AGkL1f4vjohR39No2z+0csX9wUHhcuFN4AyuEToWxWkppQpwrfPNKrCoUZmcj8I0rr2UhM0IWQsheQAV+/HAFHyMjvwaZjVpGDC3p21yKLTTX2ucVx9JdGVRKpPMYhalSXktigfm5BHuOL6r9ba7jJLMBLGmjlpObcACnhHZOFGtsTu3+eLKxg2xqDwB6eIFSwuRevZXcAI+DZd+5OVCMQb9Iu42FGHv/hV/ObDLs2+adezNFXLhXhI2KkRKI8WzkSS8o8CEo5FuHj4qvGjJqXKnRWQPjF2qFHl4/d2Zl7qhBLjGWtxYtNA/QczWKEMi2f9dqK+0u6zXVarvYngZ9D8X8aZL/Fu+Ubtc6HZrnjsyNk9loJOowy7tM40sZvRYhlQ63uvjs/jrar76O6vKjXHAbowm2hBNklwcZpnmFZs8OyG5i/MRSEncwNAfWuD/KLvN+gZYeGJDgcMlWcht29lsf8r4AXVVaSlLio0G04Jeu9mmpx1/o+W3fVp+oOPSKByqX3v4Doyp6SA==</source>
+  </file>
+  <file path="Setup/Uninstall.php" generated-path="Setup.Uninstall.html" hash="12f258cf8b9ca47fd68eaf2531209c73" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="UninstallInterface">\Magento\Framework\Setup\UninstallInterface</namespace-alias>
+    <namespace-alias name="SchemaSetupInterface">\Magento\Framework\Setup\SchemaSetupInterface</namespace-alias>
+    <namespace-alias name="ModuleContextInterface">\Magento\Framework\Setup\ModuleContextInterface</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Setup" line="8" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Setup\UninstallInterface</implements>
+      <name>Uninstall</name>
+      <full_name>\Mageplaza\HelloWorld\Setup\Uninstall</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="10" package="Default">
+        <name>uninstall</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\Uninstall::uninstall()</full_name>
+        <docblock line="10">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$setup</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\SchemaSetupInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleContextInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Setup\Uninstall</error>
+      <error line="10" code="PPC:ERR-50015">Argument $setup is missing from the Docblock of uninstall</error>
+      <error line="10" code="PPC:ERR-50015">Argument $context is missing from the Docblock of uninstall</error>
+      <error line="10" code="PPC:ERR-50008">No summary for method uninstall()</error>
+    </parse_markers>
+    <source>eJyNUc1Kw0AQPmefYg6BJmCfIFoPguihpypeAmW7mTbB2Z1lf6gofXc3SRtaLeJt5pvvD+b23rZWGKnRW6kQlnKHluSnrJ+QiN/YUVOvMERbCRH9SDCB60eXNHt27+O1fjWd8UESPZuAbpu8qj/5K9WilsP8T8WSm0j4wIn9Ec40QpH0HqYC0GlLqJPHGTjxxZfIbNxQp2AbjQodG4gnVnGtFeS+32/gegHI1YiUIkveWX70Qgd3R2l1Ac8XaXBhCCnK1P/yuMOQIgwO1Ypyvmgc2xe5ISx+0EZwpk8vW7f9y/b9y9aWfZiVv93RNFNwdhCHbwr0uXg=</source>
+  </file>
+  <file path="Setup/InstallData.php" generated-path="Setup.InstallData.html" hash="3ac4efa1965923083889b79a80752718" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="InstallDataInterface">\Magento\Framework\Setup\InstallDataInterface</namespace-alias>
+    <namespace-alias name="ModuleContextInterface">\Magento\Framework\Setup\ModuleContextInterface</namespace-alias>
+    <namespace-alias name="ModuleDataSetupInterface">\Magento\Framework\Setup\ModuleDataSetupInterface</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Setup" line="9" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Setup\InstallDataInterface</implements>
+      <name>InstallData</name>
+      <full_name>\Mageplaza\HelloWorld\Setup\InstallData</full_name>
+      <docblock line="9">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="9" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Setup" line="11" package="Default">
+        <name>$_postFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\InstallData::_postFactory</full_name>
+        <default></default>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="13" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\InstallData::__construct()</full_name>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$postFactory</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Model\PostFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="18" package="Default">
+        <name>install</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\InstallData::install()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$setup</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleDataSetupInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleContextInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="9" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Setup\InstallData</error>
+      <error line="13" code="PPC:ERR-50015">Argument $postFactory is missing from the Docblock of __construct</error>
+      <error line="13" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="18" code="PPC:ERR-50015">Argument $setup is missing from the Docblock of install</error>
+      <error line="18" code="PPC:ERR-50015">Argument $context is missing from the Docblock of install</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method install()</error>
+      <error line="11" code="PPC:ERR-50007">No summary for property $_postFactory</error>
+    </parse_markers>
+    <source>eJyVUl1r20AQfJZ+xRIMskFyaV5duw8pIYYGWlzIQ1XM5bS2RE536n1YdYv/e/fuLMembqF6klY7M7uz8+59V3dpKlmLpmMc4ZFtsRPsJysfUAj1pLSoyhVa183S1JnYIK0q7zVheqVf4t9yKY1lQnxgli2lRb0httk/EY+qcgLvFHX/sP+F8SLh+wyVcsGMgbMxoGk7gS3xXJRPmPRXmnRaWeQWKxitO2XsPeNW6T3RJZ17Fg2HjZPcNkrCes0VsWjH7bi8ahMNh6L89EoDozPOSZqQYDKydWOKxbkazC8aZ2lyuKLfxBXGf7MARsZ/53DdVxjxWBnmqLxFc/hK70nmA5DB8MwXcPOgerAK7jQyi7D6/BGCHKy4bjpL0ww3gtubPHD4FdZBRNoscCwl+G2BadtwgTn0CH0jBGwaWYFyFuqoctwNGJVdt9WsQjDfBZgotlEa2rDVhe4UnmqUsFfuRECNA54dIXloaNkeJNKdCchrJrdIoyF4E54ZBS4e1mn0FKyqwKgWCdGHljABd1qTMBBC4BS+KKhU2C9/HQkoULuG1L1moAixRAN93fA6lDmTHhnG3fgp2unRQafF+gX32ekK2Zs2Mhe3RdymqHCHQnU+1mc/yceCXni4VkHWFSEMRTRwWttWZFHDsq25uHTWDsPn7ZBqqH2qe5/qI4zste4EJNhbKn+b+SD5u/sI/xnsYhEHGk9OjcWCzPXhHYcAToqFYbvYcEgP6W+w244+</source>
+  </file>
+  <file path="Setup/UpgradeData.php" generated-path="Setup.UpgradeData.html" hash="c6681dd5cd93c405636184ed943995fa" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="UpgradeDataInterface">\Magento\Framework\Setup\UpgradeDataInterface</namespace-alias>
+    <namespace-alias name="ModuleDataSetupInterface">\Magento\Framework\Setup\ModuleDataSetupInterface</namespace-alias>
+    <namespace-alias name="ModuleContextInterface">\Magento\Framework\Setup\ModuleContextInterface</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Setup" line="9" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Setup\UpgradeDataInterface</implements>
+      <name>UpgradeData</name>
+      <full_name>\Mageplaza\HelloWorld\Setup\UpgradeData</full_name>
+      <docblock line="9">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="9" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Setup" line="11" package="Default">
+        <name>$_postFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\UpgradeData::_postFactory</full_name>
+        <default></default>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="13" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\UpgradeData::__construct()</full_name>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$postFactory</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Model\PostFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Setup" line="18" package="Default">
+        <name>upgrade</name>
+        <full_name>\Mageplaza\HelloWorld\Setup\UpgradeData::upgrade()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$setup</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleDataSetupInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Setup\ModuleContextInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="9" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Setup\UpgradeData</error>
+      <error line="13" code="PPC:ERR-50015">Argument $postFactory is missing from the Docblock of __construct</error>
+      <error line="13" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="18" code="PPC:ERR-50015">Argument $setup is missing from the Docblock of upgrade</error>
+      <error line="18" code="PPC:ERR-50015">Argument $context is missing from the Docblock of upgrade</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method upgrade()</error>
+      <error line="11" code="PPC:ERR-50007">No summary for property $_postFactory</error>
+    </parse_markers>
+    <source>eJyVU+9r2zAQ/Wz/FUcJ2IE4W/s1bcbYVjZYYbAf/bCMoMqXWESWhHRqmo3+7zvZcZKybjB/sk733ju9u7t85RqX50a0GJyQCDdijU6Ln2LxHrW2t9brevEZKbpZnsfQJxiyi2vPmK31m/528dWtvajxrSDxwRD6FbPN/om4sXXUHaA7/xfqjeXsBzrB5FKLEOCkDFCt09gyy5PwAZP/yjPnLaEkrGG0dDbQtZBk/Y7pMhfvtJKwikaSsgaWS2lNIB8llYtnbeLSUC8+HWlgdMI5zjMWzEbUqFDNT9Xg6kniLM8en9GP/RPKv9kGo5DOE3jeIRjJPrKvQ62gvEcfmJof1jrhsRxSqvka6Vt/WY4nUJxPL6YvC/65LMZjSPBsVCeLr+B7OmRFmqAChu9qDmf7BsIFvLtPPTib9JnppctOyFDRZX5hR0B4UlIjbJXWQEJvQNzZSHswfFSBQBk4sE7hdYCdjbAxdjs5xoG5YlBmDdQgYI+uveIf1pCNSv2OnoUaJZterkHtgKyFNnKIWdgDNHXHMBAPfRBa0W4KtwhScFNMzTaR6JJZudMDwc+BjeKgXcFKi1SLIPAqYGDdVAkEh1KtuMFBURRdhxvhHJrQkXd1pT1gEXwQaZKh7Rp7XNHlcfb6otFLlugr0RiCNdPB9ej1coO74tCf4kXbv6y6qHriqubqtXVpY04uewunDbW62JORWIcnzS7awf5JO1SXXNV2m6obcGwUxQOScecp/mPWzVOai7QJf+5HNZceBWE5PmZWc1HXaQnKbhDH1TyI+33GY1qgx/w36Umkhw==</source>
+  </file>
+  <file path="Plugin/ExamplePlugin.php" generated-path="Plugin.ExamplePlugin.html" hash="f2db8eb4df22ec35f57dd87d7bb5ab40" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Plugin" line="5" package="Default">
+      <extends/>
+      <name>ExamplePlugin</name>
+      <full_name>\Mageplaza\HelloWorld\Plugin\ExamplePlugin</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Plugin" line="8" package="Default">
+        <name>beforeSetTitle</name>
+        <full_name>\Mageplaza\HelloWorld\Plugin\ExamplePlugin::beforeSetTitle()</full_name>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$subject</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Controller\Index\Example</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$title</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Plugin" line="17" package="Default">
+        <name>afterGetTitle</name>
+        <full_name>\Mageplaza\HelloWorld\Plugin\ExamplePlugin::afterGetTitle()</full_name>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$subject</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Controller\Index\Example</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$result</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Plugin" line="27" package="Default">
+        <name>aroundGetTitle</name>
+        <full_name>\Mageplaza\HelloWorld\Plugin\ExamplePlugin::aroundGetTitle()</full_name>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$subject</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Controller\Index\Example</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$proceed</name>
+          <default></default>
+          <type>callable</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Plugin\ExamplePlugin</error>
+      <error line="8" code="PPC:ERR-50015">Argument $subject is missing from the Docblock of beforeSetTitle</error>
+      <error line="8" code="PPC:ERR-50015">Argument $title is missing from the Docblock of beforeSetTitle</error>
+      <error line="8" code="PPC:ERR-50008">No summary for method beforeSetTitle()</error>
+      <error line="17" code="PPC:ERR-50015">Argument $subject is missing from the Docblock of afterGetTitle</error>
+      <error line="17" code="PPC:ERR-50015">Argument $result is missing from the Docblock of afterGetTitle</error>
+      <error line="17" code="PPC:ERR-50008">No summary for method afterGetTitle()</error>
+      <error line="27" code="PPC:ERR-50015">Argument $subject is missing from the Docblock of aroundGetTitle</error>
+      <error line="27" code="PPC:ERR-50015">Argument $proceed is missing from the Docblock of aroundGetTitle</error>
+      <error line="27" code="PPC:ERR-50008">No summary for method aroundGetTitle()</error>
+    </parse_markers>
+    <source>eJylUV1rwjAUfW5+xUWEKmzKnq2Ofcjcg2wwYQ/rKGl6qx3XJKQJyMT/vsR2soduDHxL7sk5Oeee5FpvNGOSb7HWXCAs+Ro18U+eLpBIvSpDRfpMbl3JCWOCeF3DfMe3mrCZsj1jkXY5VQJKJ4WtlIQcS2XwBe2qsoSDtFP1TklrFBGa9FEWuEtbXejXLv9AYS+gbwN/yKI9i6LmAtN2CiPogVXQm3gMxUZBli3nq8XTfZYFLBnnZuZBjxq0zkh4a4jvnnBgHa55adE8nG/aYO3IHl3/11qcbK5mscdasj/Fp/9HQm0DFifj8Crwuv0b5WRxfgDBiXgeRtoogVj8EQUu4fZYNrRvB0P4jucra9NMT1KD4S91eaGbsP8OnR97agWbBg9fKUzhQw==</source>
+  </file>
+  <file path="Cron/Test.php" generated-path="Cron.Test.html" hash="b92f376cc23b26b9522d09dcbd38e719" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Cron" line="5" package="Default">
+      <extends/>
+      <name>Test</name>
+      <full_name>\Mageplaza\HelloWorld\Cron\Test</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Cron" line="8" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Cron\Test::execute()</full_name>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Cron\Test</error>
+      <error line="8" code="PPC:ERR-50008">No summary for method execute()</error>
+    </parse_markers>
+    <source>eJxtjc1qAjEUhddzn+IuBOOizgOoFfoDLpQKCkIJDLeZ6xiISUgyVRTf3YztQsHd4fsO54ynfucBLO05elKMC2rYGzqRnLExbuOCqeV7cHYEoAzFiGuOCc4AhW9/jFa4ba1K2lnkI6s2sRhA0emidwg6ccAJWj6g/GZby7lr5OaG5SoFpr14W+IQ++UvhdK4plT5aphDfzDqJnJqnkzMb1jcd15eqa7/psX/86PWdutEVS0+17Ovj6rKMtvAqQ0We2mnYwcucLkCHtZYXw==</source>
+  </file>
+  <file path="Observer/ChangeDisplayText.php" generated-path="Observer.ChangeDisplayText.html" hash="613f15b6379d765a9379e97cf03d1d8a" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Observer" line="5" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Event\ObserverInterface</implements>
+      <name>ChangeDisplayText</name>
+      <full_name>\Mageplaza\HelloWorld\Observer\ChangeDisplayText</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Observer" line="7" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Observer\ChangeDisplayText::execute()</full_name>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$observer</name>
+          <default></default>
+          <type>\Magento\Framework\Event\Observer</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Observer\ChangeDisplayText</error>
+      <error line="7" code="PPC:ERR-50015">Argument $observer is missing from the Docblock of execute</error>
+      <error line="7" code="PPC:ERR-50008">No summary for method execute()</error>
+    </parse_markers>
+    <source>eJyFjstOwzAQRdfxV4yqSEkWKR+QUha0CBaIDRKbSMhxJw/h2JZnXFpQ/x0nVFCxYTeaOXPuXd243glh5IjkpEJ4lB06LT9kfY9a2xfr9a5+agj9Hn0lhNKSCG57aTrcDBTR4zMeGIbRaRzRMEE9OQzb+s5H7bv1b/V2Hxc/mgfD6NuYJj5F4kKjBwVtMIoHawAPqAJj/q8FUnueCpFEUZLuLvpc/57LdYe8kSzzbHSvHK9ZUUUeVW/h8mkGpyEvYAkLKGFOhNVV49eL6k9EuaYznW2/OwPOOAWlkKgNWh+XU1R89MjBG0i5HyiKTuL0BUR/g+4=</source>
+  </file>
+  <file path="Helper/Data.php" generated-path="Helper.Data.html" hash="8bdbb553a6f2af9ec29aa1255dab230f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="AbstractHelper">\Magento\Framework\App\Helper\AbstractHelper</namespace-alias>
+    <namespace-alias name="ScopeInterface">\Magento\Store\Model\ScopeInterface</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Helper" line="8" package="Default">
+      <extends>\Magento\Framework\App\Helper\AbstractHelper</extends>
+      <name>Data</name>
+      <full_name>\Mageplaza\HelloWorld\Helper\Data</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <constant namespace="Mageplaza\HelloWorld\Helper" line="11" package="Default">
+        <name>XML_PATH_HELLOWORLD</name>
+        <full_name>\Mageplaza\HelloWorld\Helper\Data::XML_PATH_HELLOWORLD</full_name>
+        <value>'helloworld/'</value>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Helper" line="13" package="Default">
+        <name>getConfigValue</name>
+        <full_name>\Mageplaza\HelloWorld\Helper\Data::getConfigValue()</full_name>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$storeId</name>
+          <default>null</default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Helper" line="20" package="Default">
+        <name>getGeneralConfig</name>
+        <full_name>\Mageplaza\HelloWorld\Helper\Data::getGeneralConfig()</full_name>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$code</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$storeId</name>
+          <default>null</default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Helper\Data</error>
+      <error line="13" code="PPC:ERR-50015">Argument $field is missing from the Docblock of getConfigValue</error>
+      <error line="13" code="PPC:ERR-50015">Argument $storeId is missing from the Docblock of getConfigValue</error>
+      <error line="13" code="PPC:ERR-50008">No summary for method getConfigValue()</error>
+      <error line="20" code="PPC:ERR-50015">Argument $code is missing from the Docblock of getGeneralConfig</error>
+      <error line="20" code="PPC:ERR-50015">Argument $storeId is missing from the Docblock of getGeneralConfig</error>
+      <error line="20" code="PPC:ERR-50008">No summary for method getGeneralConfig()</error>
+    </parse_markers>
+    <source>eJxtkF1rwjAUhq+TX5GLQhWm3tfNUdStQqViZe6iIDE9/WBZEpIUx8T/vpQqm867c3He533OeXxWlcJY0E8wijIgS1qC4vSbZhFwLrdS87wdFegxxo3pNoSV2Yt2oYPUH1mo1HklC/fGasrsJfE3kFqpIVvKHHiWMqlgISzowrU6MuPUGDKjlhL4siByQ65Z+IgxYlIYS96X8W4VbqJdNI/jZJus4xl5In7VCh9a4ZHviEg1e14zUjSC2VoKUoKdSlHU5RvlDfS8ogaePxDPtF6L3CFEw3kfoyNGSINttCCerWozmJhWtwsPJo7TEdwaulCuDwqCdJqs5rt0k6znvxUu0B9jdLov9woCNOVdTc9j7lH37f7p3VxmgBdBcO9LQ7/sSkb+kNw0nM1OP/3usVE=</source>
+  </file>
+  <file path="view/frontend/templates/index.phtml" generated-path="view.frontend.templates.index.phtml.html" hash="a095ef51b57d64ded9b21e8e48eaa9ad" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyzyTCyC0/NSc7PTVUoyVfwTUxPLchJrErUA4rY6AMlAcFvC0Y=</source>
+  </file>
+  <file path="view/frontend/templates/sayhello.phtml" generated-path="view.frontend.templates.sayhello.phtml.html" hash="2c6ccd0ca879a52d8e52864905954715" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="var" line="0" description="" type="\Mageplaza\HelloWorld\Block\Display" variable="$block">
+        <type>\Mageplaza\HelloWorld\Block\Display</type>
+      </tag>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+    </parse_markers>
+    <source>eJyVUsGO0zAQvfsrRqVVk2rTFvaC0qwXsRzYA4gbl16c2ImtunZkm6Whyr8zTtJIIIRgDvZ4xu/N+I2Lx1a2hOw2GwIbePfCHBw/sUa0mv1gx49Ca/vVOs2P77WtTscPymOmg2UZjwjZESIqaadARj3rBlCSHgh5pIQUPnRaUBJYqQVcAWprQlazs9JdDswppu/AM+MzL5yqDwCldVy4rLJas9aLHG4e5r4rHmQOr/f7FZ7OzDXKZMG2Odzv28uhJ4HfQZCxzkiDd9sLeKsVh1d8MAQGcQkZ06oxOWhRBwy1jHNlmhzeIg8AMrncBJlVUmmeiBdhUmQtWXVqnP1meOzPIv1M2pNta33IFL+OXb5Z9TCGDDuLKXi/X/Uoym5ShRSDLpQAFMHFLToSKs28f1hMhAv6zItdkH/OR/YF/YzrL3foEwotTLgFcb8VGGYOk9XWCVZJSG4jbET4grxPqLqogrImSYF5WJ5E90CXsWR6ndHRhg+wnvv/3YrA6Xo7AGfyZ56k2zW2xP8NE1/3f4jxCYMCfwMOqqwPc6YfPPy4mBgng15peRcjMpw1JT8BwPzuJQ==</source>
+  </file>
+  <file path="Console/Sayhello.php" generated-path="Console.Sayhello.html" hash="6ee9a7a27d5e06f541e08fb850ef4157" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Command">\Symfony\Component\Console\Command\Command</namespace-alias>
+    <namespace-alias name="InputInterface">\Symfony\Component\Console\Input\InputInterface</namespace-alias>
+    <namespace-alias name="OutputInterface">\Symfony\Component\Console\Output\OutputInterface</namespace-alias>
+    <namespace-alias name="InputOption">\Symfony\Component\Console\Input\InputOption</namespace-alias>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Console" line="10" package="Default">
+      <extends>\Symfony\Component\Console\Command\Command</extends>
+      <name>Sayhello</name>
+      <full_name>\Mageplaza\HelloWorld\Console\Sayhello</full_name>
+      <docblock line="10">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="10" description="Default"/>
+      </docblock>
+      <constant namespace="Mageplaza\HelloWorld\Console" line="13" package="Default">
+        <name>NAME</name>
+        <full_name>\Mageplaza\HelloWorld\Console\Sayhello::NAME</full_name>
+        <value>'name'</value>
+        <docblock line="13">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Console" line="15" package="Default">
+        <name>configure</name>
+        <full_name>\Mageplaza\HelloWorld\Console\Sayhello::configure()</full_name>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Console" line="34" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Console\Sayhello::execute()</full_name>
+        <docblock line="34">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$input</name>
+          <default></default>
+          <type>\Symfony\Component\Console\Input\InputInterface</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$output</name>
+          <default></default>
+          <type>\Symfony\Component\Console\Output\OutputInterface</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="10" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Console\Sayhello</error>
+      <error line="15" code="PPC:ERR-50008">No summary for method configure()</error>
+      <error line="34" code="PPC:ERR-50015">Argument $input is missing from the Docblock of execute</error>
+      <error line="34" code="PPC:ERR-50015">Argument $output is missing from the Docblock of execute</error>
+      <error line="34" code="PPC:ERR-50008">No summary for method execute()</error>
+    </parse_markers>
+    <source>eJyNU9FqGzEQfJa+YjGGO4PdDzi3DqE21FAnNCHpQxKCOO/ZAt1KSDpit/jfq9XZ1AmlyctJWs1odka6zxdu66Qk1WJwqkZYqQ06o36px29ojP1pvVk/frUUrMGplF1AuN23jaV9qrbOElI87XOlVbQ+jdN34EtyXey/S4rom9TAe5zrLjKpHz7MOlO6dlFbSlZqo0KAW7XfslHAXURaBzj2Ln9LKepEj3B1uVrAFyg4pCIRhfM2Yh1xDU1HNR8HCdnoTeexHEnBVDG0WSgk5kNaCsIXOGug5JoIaJqqYoFxXlNnTD87g1bV/eX3u8XzzeLH3fJmMe8BxRW3w9OkKJ6mWTNudZjMAkbeLAvcqdYZrMLRZMFQkQFzDLXXfSvFHFubLGTjYDThK2CjSWfcydIoiznlU8RVdWZ9KsXh3/ngDusuYvn6smGoeT2GN9cJQ5sLOUshdAPlkNNPWfaMyWyDpyD/ZjgaQY5eHOmT2YvXEQ2Vg/yYYQCfIB/EDhLwAGjSu/k/Kf8Cg94zuxMeY+cJcthcPcjDH/+qEjc=</source>
+  </file>
+  <file path="Model/Indexer/Test.php" generated-path="Model.Indexer.Test.html" hash="248fb41ce74fdbe06bca0646071470de" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Model\Indexer" line="4" package="Default">
+      <extends/>
+      <implements>\Magento\Framework\Indexer\ActionInterface</implements>
+      <implements>\Magento\Framework\Mview\ActionInterface</implements>
+      <name>Test</name>
+      <full_name>\Mageplaza\HelloWorld\Model\Indexer\Test</full_name>
+      <docblock line="4">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="4" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model\Indexer" line="9" package="Default">
+        <name>execute</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Indexer\Test::execute()</full_name>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$ids</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model\Indexer" line="18" package="Default">
+        <name>executeFull</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Indexer\Test::executeFull()</full_name>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model\Indexer" line="24" package="Default">
+        <name>executeList</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Indexer\Test::executeList()</full_name>
+        <docblock line="24">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$ids</name>
+          <default></default>
+          <type>array</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model\Indexer" line="30" package="Default">
+        <name>executeRow</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Indexer\Test::executeRow()</full_name>
+        <docblock line="30">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="4" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Model\Indexer\Test</error>
+      <error line="9" code="PPC:ERR-50015">Argument $ids is missing from the Docblock of execute</error>
+      <error line="9" code="PPC:ERR-50008">No summary for method execute()</error>
+      <error line="18" code="PPC:ERR-50008">No summary for method executeFull()</error>
+      <error line="24" code="PPC:ERR-50015">Argument $ids is missing from the Docblock of executeList</error>
+      <error line="24" code="PPC:ERR-50008">No summary for method executeList()</error>
+      <error line="30" code="PPC:ERR-50015">Argument $id is missing from the Docblock of executeRow</error>
+      <error line="30" code="PPC:ERR-50008">No summary for method executeRow()</error>
+    </parse_markers>
+    <source>eJyFkc1KAzEUhdeTpziKiypCH0BB3IiC3YjSzWxuM7edYP5IMo61+O7eVFtBi66GMOfe78vJ5VXso/LkOEfSjBmtOFp6o/aWrQ3zkGzXzkLHtr3zHb9yulBKW8oZj5wLjIuWHfuS0dZZX0J7k2TdGNLzbqS91sUEf+cLp6VQzg9lZy+Gx59JtVHN9Ew1OMNT5g6LNVzNnYPEbsyIKWgWGfNJki9Kzzh+ih0VRvDIuudusHwMJ9eoq6aqicPCGo3l4Lc8yKweCk9OTJdPN0o1zXSqJY6eEx+p5l3tPebGWhR65qqAsNzyBEYg3yHx1uQ7mQaPsWe/+4MXQ9DBuZq2xv9jdDNYOxGj30J7HykvYzSlByFzqUpSrSlr6J78SlqbOFpjwXDybLRdf/o39d7kMqGUZOyrkf/40rvctBjHWIZUTYxfWd6ZDPWIaIeV8flv9kMY6zMcZL5/AFHH4v4=</source>
+  </file>
+  <file path="Model/ResourceModel/Post/Collection.php" generated-path="Model.ResourceModel.Post.Collection.html" hash="e9161cf42aab2c1ff0bd5eb850ead75b" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Model\ResourceModel\Post" line="4" package="Default">
+      <extends>\Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection</extends>
+      <name>Collection</name>
+      <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection</full_name>
+      <docblock line="4">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="4" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model\ResourceModel\Post" line="6" package="Default">
+        <name>$_idFieldName</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection::_idFieldName</full_name>
+        <default>'post_id'</default>
+        <docblock line="6">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model\ResourceModel\Post" line="7" package="Default">
+        <name>$_eventPrefix</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection::_eventPrefix</full_name>
+        <default>'mageplaza_helloworld_post_collection'</default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model\ResourceModel\Post" line="8" package="Default">
+        <name>$_eventObject</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection::_eventObject</full_name>
+        <default>'post_collection'</default>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model\ResourceModel\Post" line="15" package="Default">
+        <name>_construct</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection::_construct()</full_name>
+        <docblock line="15">
+          <description>Define resource model</description>
+          <long-description></long-description>
+          <tag name="return" line="15" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="4" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Model\ResourceModel\Post\Collection</error>
+      <error line="6" code="PPC:ERR-50007">No summary for property $_idFieldName</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $_eventPrefix</error>
+      <error line="8" code="PPC:ERR-50007">No summary for property $_eventObject</error>
+    </parse_markers>
+    <source>eJx9kc9OAjEQxs/bp5gDyQLR8AD4NxLiBSVevDTZdNvBrXbbpu0C0fDuTkFBIuE4M998X3+dq1vfeGZFi9ELiTATb+iN+BT8EY1xry4YxWdOoeEvGF0XJO6quYtpzJg0IkZ4cMagTNpZwHVCqyLw7GST49NA5isXPk7aTGp+WOb3dUxByHRosS9W+OASVaigV2k11WjUE3nCNZSeXkG9cnyswiVFzwMu9Dqr2l+oqslQqwxVbVflPuikxXP9TvU+6EjNitFwyAoYwoRyLEL4AYM2k+XJdnoXMHXBwtJplRujvzmLzu6+jbwtsXcy9QesIOiilxodL28qbXXql2fuki9RXsA5yf/TlQPi3TC2+QYzRrTR</source>
+  </file>
+  <file path="Model/ResourceModel/Post.php" generated-path="Model.ResourceModel.Post.html" hash="31d0525318619d2b8af6375cb9ac84e8" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Model\ResourceModel" line="5" package="Default">
+      <extends>\Magento\Framework\Model\ResourceModel\Db\AbstractDb</extends>
+      <name>Post</name>
+      <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model\ResourceModel" line="8" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post::__construct()</full_name>
+        <docblock line="8">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\Model\ResourceModel\Db\Context</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model\ResourceModel" line="15" package="Default">
+        <name>_construct</name>
+        <full_name>\Mageplaza\HelloWorld\Model\ResourceModel\Post::_construct()</full_name>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Model\ResourceModel\Post</error>
+      <error line="8" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="8" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="15" code="PPC:ERR-50008">No summary for method _construct()</error>
+    </parse_markers>
+    <source>eJyNkMFKAzEQhs+Zp8ihsC3oC7SiiEW8FMSLl0DIzo7dYJoJySwVS9/dRFvswYOnmYF/Pn6+m7s0JohuRyU5JL1xW0rBfTrzRCHwK+cwmA0PFMwLFZ4y0ve1AgAMrhT9zEU0fQjFoWjT/qOwecwVuef8/tezWffmvi+SHcq6hwOASlMfPOq3KaJ4jtpa5FgTE8oclPo/94Gj1DZ6hj8LqAWoQ0Uklythubwkn0OLFahja5FZCIWGiyK/6RNoJqMv17fWRy/zbncWZscmbN+E2VSddFe6a9P6oTvxj18croFa</source>
+  </file>
+  <file path="Model/Post.php" generated-path="Model.Post.html" hash="bc6be6700a72f98d5db8d28fb3aeeb42" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Model" line="3" package="Default">
+      <extends>\Magento\Framework\Model\AbstractModel</extends>
+      <implements>\Magento\Framework\DataObject\IdentityInterface</implements>
+      <name>Post</name>
+      <full_name>\Mageplaza\HelloWorld\Model\Post</full_name>
+      <docblock line="3">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="3" description="Default"/>
+      </docblock>
+      <constant namespace="Mageplaza\HelloWorld\Model" line="5" package="Default">
+        <name>CACHE_TAG</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::CACHE_TAG</full_name>
+        <value>'mageplaza_helloworld_post'</value>
+        <docblock line="5">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model" line="7" package="Default">
+        <name>$_cacheTag</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::_cacheTag</full_name>
+        <default>'mageplaza_helloworld_post'</default>
+        <docblock line="7">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model" line="9" package="Default">
+        <name>$_eventPrefix</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::_eventPrefix</full_name>
+        <default>'mageplaza_helloworld_post'</default>
+        <docblock line="9">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Model" line="11" package="Default">
+        <name>_construct</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::_construct()</full_name>
+        <docblock line="11">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model" line="16" package="Default">
+        <name>getIdentities</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::getIdentities()</full_name>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Model" line="21" package="Default">
+        <name>getDefaultValues</name>
+        <full_name>\Mageplaza\HelloWorld\Model\Post::getDefaultValues()</full_name>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="3" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Model\Post</error>
+      <error line="11" code="PPC:ERR-50008">No summary for method _construct()</error>
+      <error line="16" code="PPC:ERR-50008">No summary for method getIdentities()</error>
+      <error line="21" code="PPC:ERR-50008">No summary for method getDefaultValues()</error>
+      <error line="7" code="PPC:ERR-50007">No summary for property $_cacheTag</error>
+      <error line="9" code="PPC:ERR-50007">No summary for property $_eventPrefix</error>
+    </parse_markers>
+    <source>eJyVkM1uwjAQhM/xU/iAFHJoHwD6IwRt4YCKKtQeMLKMsyFuHduyN0Bb8e51AohLOXCxtPbOzOe5e3SlI0ZUEJyQQKdiDU6LH8HGoLX9sF7nbGpz0H0itQiBzmxACjsEkwfKmn2Dlj37aLG1/uuwzAargF5IbCeqKqehiov/KkYCxevqEySySR7fFH5PDIIvIhD5JYm0JkYOB8PxE58PXug9TasTJi8bzG2DyV0kS/uEJM5bjG6Q0w6XQpYwF+vrVLCJHDMPhdpdIyxqI1FZQ3nL7GuJ3Ywk8Q9JB0sVbh64Mgq76eWa2RsEW3sJh6lpO836JNk3QfVKK3lOWQMeC1MQTkEesPaGLgLootc7t3ZLU57G8wjSarvZ8rL1CApRa3wXuj67dzbtGEtZLJu/n+KO963b/g9PG853</source>
+  </file>
+  <file path="Block/Display.php" generated-path="Block.Display.html" hash="aade6e74e92f7a90c4bc287a922d3409" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Block" line="3" package="Default">
+      <extends>\Magento\Framework\View\Element\Template</extends>
+      <name>Display</name>
+      <full_name>\Mageplaza\HelloWorld\Block\Display</full_name>
+      <docblock line="3">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="3" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Block" line="5" package="Default">
+        <name>$_postFactory</name>
+        <full_name>\Mageplaza\HelloWorld\Block\Display::_postFactory</full_name>
+        <default></default>
+        <docblock line="5">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Block" line="6" package="Default">
+        <name>__construct</name>
+        <full_name>\Mageplaza\HelloWorld\Block\Display::__construct()</full_name>
+        <docblock line="6">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$context</name>
+          <default></default>
+          <type>\Magento\Framework\View\Element\Template\Context</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$postFactory</name>
+          <default></default>
+          <type>\Mageplaza\HelloWorld\Model\PostFactory</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Block" line="15" package="Default">
+        <name>sayHello</name>
+        <full_name>\Mageplaza\HelloWorld\Block\Display::sayHello()</full_name>
+        <docblock line="15">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="Mageplaza\HelloWorld\Block" line="20" package="Default">
+        <name>getPostCollection</name>
+        <full_name>\Mageplaza\HelloWorld\Block\Display::getPostCollection()</full_name>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="3" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Block\Display</error>
+      <error line="6" code="PPC:ERR-50015">Argument $context is missing from the Docblock of __construct</error>
+      <error line="6" code="PPC:ERR-50015">Argument $postFactory is missing from the Docblock of __construct</error>
+      <error line="6" code="PPC:ERR-50008">No summary for method __construct()</error>
+      <error line="15" code="PPC:ERR-50008">No summary for method sayHello()</error>
+      <error line="20" code="PPC:ERR-50008">No summary for method getPostCollection()</error>
+      <error line="5" code="PPC:ERR-50007">No summary for property $_postFactory</error>
+    </parse_markers>
+    <source>eJyN0FFLwzAQB/Dn5FPkobAO7BfYtILT4cvAB9GXQInpuZWluZBcmVX23U2jxUoRfCvX/939LpfX7uC4VS0EpzSIndqDM+pdyXswBp/Rm1reGNTHNddGhSBumxADvYA3AlsHIYcWSyi3Pk45oT/KpwZO8s5AG+vyEdqYJ+AfnDmPBJqgFlnlMNBWaULfr+Of7sU0Wrx2VlODVlSVRhvId5pyzth/l8gNWooykemvj4uxeXbUDmsw8uFHIbIJibMlZ1HMMjo0oSinXHH1Kxr1zCkfGavVlD0SljFw5vMTg+oTJ//e5IE6P1yeL1JdJOfir/Y90IDfoDGQKvkyeQfZIJy7i1J7iI+UDyPHdSlflHHadFLaef4EANW8vA==</source>
+  </file>
+  <file path="Block/Index.php" generated-path="Block.Index.html" hash="066ef63f845469d95afcfef54f6b125f" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Block" line="3" package="Default">
+      <extends>\Magento\Framework\View\Element\Template</extends>
+      <name>Index</name>
+      <full_name>\Mageplaza\HelloWorld\Block\Index</full_name>
+      <docblock line="3">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="3" description="Default"/>
+      </docblock>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="3" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Block\Index</error>
+    </parse_markers>
+    <source>eJwVzEEKwjAQRuH9nCL3sFAQlLpwJ7qZzZD8qHSSCUmgRendm24fvG8Y8ydTkoiaxcPd5Y2s8hOeoGovKxr4rObnE3mVWt0tBawOa0MK1fExpGZ8Ld1YrMz8/GLhiyL2zg/EzjXQn2jbAa+6KHY=</source>
+  </file>
+  <file path="Block/Adminhtml/Post.php" generated-path="Block.Adminhtml.Post.html" hash="9681ea77d412f672c8e09c39bd548227" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="Mageplaza\HelloWorld\Block\Adminhtml" line="4" package="Default">
+      <extends>\Magento\Backend\Block\Widget\Grid\Container</extends>
+      <name>Post</name>
+      <full_name>\Mageplaza\HelloWorld\Block\Adminhtml\Post</full_name>
+      <docblock line="4">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="4" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="Mageplaza\HelloWorld\Block\Adminhtml" line="11" package="Default">
+        <name>_construct</name>
+        <full_name>\Mageplaza\HelloWorld\Block\Adminhtml\Post::_construct()</full_name>
+        <docblock line="11">
+          <description>constructor</description>
+          <long-description></long-description>
+          <tag name="return" line="11" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="4" code="PPC:ERR-50005">No summary for class \Mageplaza\HelloWorld\Block\Adminhtml\Post</error>
+    </parse_markers>
+    <source>eJxVkE9PAjEQxc/bT9GDyQKJ4Q7+hQMe1Hgw4dJkM7Qj21A6zXRWjYbvbhcR8NjX35u8965uU5tUhC3mBBb1E6wxBfgC84Ah0JI4ODMLZDfm3m19bGUbpkrZADnrF8qi8VMwuqxNb41CZgZ2U5SDa+ndGsUs2DszpyjgI7L6VtV4NFKVHmlLMQt3Voj79167Y5SOo34n73phrKrEJGgFnX7rohVPUTdH62CoqnKyupDW58ub/kOYQkDW17qGv+BNKoHr6Rm46jMumLrUg8fyzan8P7xFcMivpXLBm2ZQ9wvkenjOgHOzToTiI6wwHLg5IwjqZ/zYj/brSMBlsMnkvEfRd2r3AxBThtY=</source>
+  </file>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="Mageplaza" full_name="Mageplaza">
+    <namespace name="HelloWorld" full_name="Mageplaza\HelloWorld">
+      <namespace name="Block" full_name="Mageplaza\HelloWorld\Block">
+        <namespace name="Adminhtml" full_name="Mageplaza\HelloWorld\Block\Adminhtml"/>
+      </namespace>
+      <namespace name="Console" full_name="Mageplaza\HelloWorld\Console"/>
+      <namespace name="Controller" full_name="Mageplaza\HelloWorld\Controller">
+        <namespace name="Adminhtml" full_name="Mageplaza\HelloWorld\Controller\Adminhtml">
+          <namespace name="Post" full_name="Mageplaza\HelloWorld\Controller\Adminhtml\Post"/>
+        </namespace>
+        <namespace name="Index" full_name="Mageplaza\HelloWorld\Controller\Index"/>
+      </namespace>
+      <namespace name="Cron" full_name="Mageplaza\HelloWorld\Cron"/>
+      <namespace name="Helper" full_name="Mageplaza\HelloWorld\Helper"/>
+      <namespace name="Model" full_name="Mageplaza\HelloWorld\Model">
+        <namespace name="Indexer" full_name="Mageplaza\HelloWorld\Model\Indexer"/>
+        <namespace name="ResourceModel" full_name="Mageplaza\HelloWorld\Model\ResourceModel">
+          <namespace name="Post" full_name="Mageplaza\HelloWorld\Model\ResourceModel\Post"/>
+        </namespace>
+      </namespace>
+      <namespace name="Observer" full_name="Mageplaza\HelloWorld\Observer"/>
+      <namespace name="Plugin" full_name="Mageplaza\HelloWorld\Plugin"/>
+      <namespace name="Setup" full_name="Mageplaza\HelloWorld\Setup"/>
+    </namespace>
+  </namespace>
+  <deprecated count="0"/>
+</project>

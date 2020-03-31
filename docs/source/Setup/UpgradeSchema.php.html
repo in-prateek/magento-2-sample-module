@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+namespace Mageplaza\HelloWorld\Setup;
+
+use Magento\Framework\Setup\UpgradeSchemaInterface;
+use Magento\Framework\Setup\SchemaSetupInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+
+class UpgradeSchema implements UpgradeSchemaInterface
+{
+	public function upgrade( SchemaSetupInterface $setup, ModuleContextInterface $context ) {
+		$installer = $setup;
+
+		$installer-&gt;startSetup();
+
+		if(version_compare($context-&gt;getVersion(), '1.1.0', '&lt;')) {
+			if (!$installer-&gt;tableExists('mageplaza_helloworld_post')) {
+				$table = $installer-&gt;getConnection()-&gt;newTable(
+					$installer-&gt;getTable('mageplaza_helloworld_post')
+				)
+					-&gt;addColumn(
+						'post_id',
+						\Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
+						null,
+						[
+							'identity' =&gt; true,
+							'nullable' =&gt; false,
+							'primary'  =&gt; true,
+							'unsigned' =&gt; true,
+						],
+						'Post ID'
+					)
+					-&gt;addColumn(
+						'name',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+						255,
+						['nullable =&gt; false'],
+						'Post Name'
+					)
+					-&gt;addColumn(
+						'url_key',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+						255,
+						[],
+						'Post URL Key'
+					)
+					-&gt;addColumn(
+						'post_content',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+						'64k',
+						[],
+						'Post Post Content'
+					)
+					-&gt;addColumn(
+						'tags',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+						255,
+						[],
+						'Post Tags'
+					)
+					-&gt;addColumn(
+						'status',
+						\Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
+						1,
+						[],
+						'Post Status'
+					)
+					-&gt;addColumn(
+						'featured_image',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
+						255,
+						[],
+						'Post Featured Image'
+					)
+					-&gt;addColumn(
+						'created_at',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
+						null,
+						['nullable' =&gt; false, 'default' =&gt; \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT],
+						'Created At'
+					)-&gt;addColumn(
+						'updated_at',
+						\Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
+						null,
+						['nullable' =&gt; false, 'default' =&gt; \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT_UPDATE],
+						'Updated At')
+					-&gt;setComment('Post Table');
+				$installer-&gt;getConnection()-&gt;createTable($table);
+
+				$installer-&gt;getConnection()-&gt;addIndex(
+					$installer-&gt;getTable('mageplaza_helloworld_post'),
+					$setup-&gt;getIdxName(
+						$installer-&gt;getTable('mageplaza_helloworld_post'),
+						['name','url_key','post_content','tags','featured_image'],
+						\Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
+					),
+					['name','url_key','post_content','tags','featured_image'],
+					\Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
+				);
+			}
+		}
+
+
+		if(version_compare($context-&gt;getVersion(), '1.2.0', '&lt;')) {
+			$installer-&gt;getConnection()-&gt;addColumn(
+				$installer-&gt;getTable( 'mageplaza_helloworld_post' ),
+				'test',
+				[
+					'type' =&gt; \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
+					'nullable' =&gt; true,
+					'length' =&gt; '12,4',
+					'comment' =&gt; 'test',
+					'after' =&gt; 'status'
+				]
+			);
+		}
+
+		$installer-&gt;endSetup();
+	}
+}</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

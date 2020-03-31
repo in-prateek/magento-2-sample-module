@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+
+namespace Mageplaza\HelloWorld\Setup;
+
+use Magento\Framework\Setup\InstallDataInterface;
+use Magento\Framework\Setup\ModuleContextInterface;
+use Magento\Framework\Setup\ModuleDataSetupInterface;
+
+class InstallData implements InstallDataInterface
+{
+	protected $_postFactory;
+
+	public function __construct(\Mageplaza\HelloWorld\Model\PostFactory $postFactory)
+	{
+		$this-&gt;_postFactory = $postFactory;
+	}
+
+	public function install(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
+	{
+		$data = [
+			'name'         =&gt; &quot;How to Create SQL Setup Script in Magento 2&quot;,
+			'post_content' =&gt; &quot;In this article, we will find out how to install and upgrade sql script for module in Magento 2. When you install or upgrade a module, you may need to change the database structure or add some new data for current table. To do this, Magento 2 provide you some classes which you can do all of them.&quot;,
+			'url_key'      =&gt; '/magento-2-module-development/magento-2-how-to-create-sql-setup-script.html',
+			'tags'         =&gt; 'magento 2,mageplaza helloworld',
+			'status'       =&gt; 1
+		];
+		$post = $this-&gt;_postFactory-&gt;create();
+		$post-&gt;addData($data)-&gt;save();
+	}
+}
+</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+
+namespace Mageplaza\HelloWorld\Plugin;
+
+class ExamplePlugin
+{
+
+	public function beforeSetTitle(\Mageplaza\HelloWorld\Controller\Index\Example $subject, $title)
+	{
+		$title = $title . &quot; to &quot;;
+		echo __METHOD__ . &quot;&lt;/br&gt;&quot;;
+
+		return [$title];
+	}
+
+
+	public function afterGetTitle(\Mageplaza\HelloWorld\Controller\Index\Example $subject, $result)
+	{
+
+		echo __METHOD__ . &quot;&lt;/br&gt;&quot;;
+
+		return '&lt;h1&gt;' . $result . 'Mageplaza.com' . '&lt;/h1&gt;';
+
+	}
+
+
+	public function aroundGetTitle(\Mageplaza\HelloWorld\Controller\Index\Example $subject, callable $proceed)
+	{
+
+		echo __METHOD__ . &quot; - Before proceed() &lt;/br&gt;&quot;;
+		$result = $proceed();
+		echo __METHOD__ . &quot; - After proceed() &lt;/br&gt;&quot;;
+
+
+		return $result;
+	}
+
+}</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>

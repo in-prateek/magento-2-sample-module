@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <script
+            type="text/javascript"
+            src="../../../../js/jquery-1.4.2.min.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../../syntax_highlighter/scripts/shCore.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../../syntax_highlighter/scripts/shBrushJScript.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../../syntax_highlighter/scripts/shBrushPhp.js">
+        </script>
+        <script
+            type="text/javascript"
+            src="../../../../syntax_highlighter/scripts/shBrushXml.js">
+        </script>
+        <link
+            href="../../../../syntax_highlighter/styles/shCore.css" rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="../../../../syntax_highlighter/styles/shCoreEclipse.css"
+            rel="stylesheet" type="text/css"
+        />
+        <link
+            href="../../../../syntax_highlighter/styles/shThemeWordpress.css"
+            rel="stylesheet" type="text/css"
+        />
+    </head>
+    <body>
+        <pre class="brush: php">&lt;?php
+
+/**
+ * @var \Mageplaza\HelloWorld\Block\Display $block
+ */
+
+echo $block-&gt;sayHello();
+
+?&gt;
+
+&lt;style&gt;
+table {  font-family: arial, sans-serif;  border-collapse: collapse;  width: 100%;  margin-top: 30px;}
+td, th {  border: 1px solid #dddddd;  text-align: left;  padding: 8px;  }
+tr:nth-child(even) { background-color: #dddddd; }
+.post-id{width:2%} .post-name{width:30%}
+
+&lt;/style&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;post-id&quot;&gt;Id&lt;/th&gt;
+    &lt;th class=&quot;post-name&quot;&gt;Name&lt;/th&gt;
+    &lt;th&gt;Content&lt;/th&gt;
+  &lt;/tr&gt;
+    &lt;?php
+        foreach ($block-&gt;getPostCollection() as $key=&gt;$post){
+            echo '&lt;tr&gt;
+                    &lt;td&gt;'.$post-&gt;getPostId().'&lt;/td&gt;
+                    &lt;td&gt;'.$post-&gt;getName().'&lt;/td&gt;
+                    &lt;td&gt;'.$post-&gt;getPostContent().'&lt;/td&gt;
+                  &lt;/tr&gt;';
+        }
+    ?&gt;
+&lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+        <script type="text/javascript">
+             SyntaxHighlighter.all();
+             jQuery('.gutter div').each(function(key, data){
+                jQuery(data).prepend('<a name="L'+jQuery(data).text()+'"/>');
+             });
+        </script>
+    </body>
+</html>
